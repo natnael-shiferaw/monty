@@ -1,4 +1,5 @@
 #include "monty.h"
+#include <string.h>
 
 /**
 * main - USED AS MONTY CODE INTERPRETER.
@@ -9,7 +10,6 @@
 
 int main(int argc, char *argv[])
 {
-VAL_T VAL = {NULL, NULL, NULL, 0};
 	unsigned int COUNTER = 0;
 	stack_t *stack = NULL;
 	size_t SIZE = 0;
