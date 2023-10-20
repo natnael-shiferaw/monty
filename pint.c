@@ -9,7 +9,7 @@
 
 void Vpint(stack_t **head, unsigned int COUNTER)
 {
-
+        VAL_T VAL;
 	if (*head == NULL)
 	{
 		fprintf(stderr, "L%u: can't pint, stack empty\n", COUNTER);

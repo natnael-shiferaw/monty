@@ -9,7 +9,7 @@
 
 void Vpop(stack_t **head, unsigned int counter)
 {
-
+        VAL_T VAL;
 	stack_t *H;
 
 	if (*head == NULL)

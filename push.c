@@ -9,7 +9,7 @@
 
 void Vpush(stack_t **head, unsigned int COUNTER)
 {
-
+        VAL_T VAL;
 	int z, k = 0, FLG = 0;
 
 	if (VAL.ARGM)

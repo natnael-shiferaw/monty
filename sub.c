@@ -9,7 +9,7 @@
 
 void Vsub(stack_t **head, unsigned int COUNTER)
 {
-
+        VAL_T VAL;
 	int VAr, NODE;
 	stack_t *AUX;
 

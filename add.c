@@ -10,6 +10,7 @@
 void Vadd(stack_t **head, unsigned int counter)
 {
 	int LEN = 0, AUX;
+	VAL_T VAL;
 	stack_t *H;
 
 	H = *head;

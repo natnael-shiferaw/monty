@@ -9,7 +9,7 @@
 
 void Vmod(stack_t **head, unsigned int counter)
 {
-
+        VAL_T VAL;
 	int LEN = 0, AUX;
 	stack_t *H;
 

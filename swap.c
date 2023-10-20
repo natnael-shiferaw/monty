@@ -10,7 +10,7 @@
 
 void Vswap(stack_t **head, unsigned int COUNTER)
 {
-
+        VAL_T VAL;
 	int LEN = 0, AUX;
 	stack_t *H;
 

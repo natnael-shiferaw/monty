@@ -9,7 +9,7 @@
 
 void Vqueue(stack_t **head, unsigned int COUNTER)
 {
-
+        VAL_T VAL;
 	VAL.FLAG_CHAN = 1;
 	(void)head;
 	(void)COUNTER;
@@ -24,7 +24,7 @@ void Vqueue(stack_t **head, unsigned int COUNTER)
 
 void _ADDqueue(stack_t **head, int n)
 {
-
+        VAL_T VAL;
 	stack_t *NEWnode, *AUX;
 
 	AUX = *head;

@@ -9,7 +9,7 @@
 
 void Vstack(stack_t **head, unsigned int COUNTER)
 {
-
+        VAL_T VAL;
 	VAL.FLAG_CHAN = 0;
 	(void)head;
 	(void)COUNTER;

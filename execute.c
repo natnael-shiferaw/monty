@@ -10,6 +10,7 @@
 */
 int _EXeCUte(char *LIN_CONT, stack_t **stack, unsigned int counter, FILE *MON_FILE)
 {
+	VAL_T VAL;
 instruction_t opst[] = {
 		{"push", Vpush}, {"pall", Vpall}, {"pint", Vpint},
 		{"pop", Vpop},

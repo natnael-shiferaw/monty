@@ -10,6 +10,7 @@
 
 int main(int argc, char *argv[])
 {
+	VAL_T VAL;
 	unsigned int COUNTER = 0;
 	stack_t *stack = NULL;
 	size_t SIZE = 0;
